@@ -13,7 +13,7 @@ My goal is to create a tool I can actually use consistently, not just a simple l
 
 <br>
 
-## Why Not Existing Tools
+## :question: Why Not Existing Tools
 I considered existing Pomodoro timers, but chose to build my own for the following reasons.
 * Steam versions are paid, and I didn't want to spend money for a timer application.
 * Smartphone apps often caused me to lose focus while using them, as I would accidentally touch other apps during operation.
@@ -24,23 +24,43 @@ we observed a significant number of users stating they “simply want to use it 
 
 <br>
 
-## Design Policy / Feature Selection
+## :pencil2: Design Policy / Feature Selection
 This app intentionally keeps its features to a minimum.<br>
 For example, we considered displaying statistics like average work time and average break time, but
 * Even with the apps I actually use, I hardly ever look at that information.
 * If you have time to look at such information, it would be more reasonable to take a break or move on to the next task.
 
 for this reason, we decided not to implement it.<br>
-We prioritize “not adding unused features” and have opted for a design that can be used simply as a timer.
+I prioritize “not adding unused features” and have opted for a design that can be used simply as a timer.
 <br>
 
 ## UI / UX Design
-We are mindful of making it intuitive even for those unfamiliar with PC operations.
+I are mindful of making it intuitive even for those unfamiliar with PC operations.
 * Do not display unnecessary features or information.
 * Critical elements (remaining time, control buttons) are displayed prominently.
 * A simple screen layout that reduces the number of decisions required for operation.
 
-We designed it with the highest priority on “effortless usability,” minimizing eye movement and operational load.
+I designed it with the highest priority on “effortless usability,” minimizing eye movement and operational load.
+<br>
+
+## Implemented Features
+The following functions are implemented for this timer:
+* Pause function during active time
+* Option to play a sound when time ends
+* Selecting the sound type (intermittent, burst, continuous)
+* Choice to continue or end when time expires
+* Active time and interval time configurable via direct input
+  
+<br>
+
+## Timer Behavior
+At the end of each time period, the specification requires prompting the user to confirm whether to continue.<br>
+This allows for
+* Use as a Pomodoro timer
+* Use as a simple task timer
+
+It is equipped to handle both of the above.
+
 <br>
 
 ## Upcoming Schedule
