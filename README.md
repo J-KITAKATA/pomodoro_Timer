@@ -32,6 +32,7 @@ For example, we considered displaying statistics like average work time and aver
 
 for this reason, we decided not to implement it.<br>
 I prioritize “not adding unused features” and have opted for a design that can be used simply as a timer.
+
 <br>
 
 ## UI / UX Design
@@ -41,6 +42,7 @@ I are mindful of making it intuitive even for those unfamiliar with PC operation
 * A simple screen layout that reduces the number of decisions required for operation.
 
 I designed it with the highest priority on “effortless usability,” minimizing eye movement and operational load.
+
 <br>
 
 ## Implemented Features
