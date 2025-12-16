@@ -43,6 +43,8 @@ I are mindful of making it intuitive even for those unfamiliar with PC operation
 
 I designed it with the highest priority on “effortless usability,” minimizing eye movement and operational load.
 
+<img width="386" height="293" alt="Image" src="https://github.com/user-attachments/assets/fd729a9d-187b-4a9f-96a7-e5cafb27b736" />
+
 <br>
 
 ## Implemented Features
@@ -52,10 +54,22 @@ The following functions are implemented for this timer:
 * Selecting the sound type (intermittent, burst, continuous)
 * Choice to continue or end when time expires
 * Active time and interval time configurable via direct input
-  
+
+Timer's number can input yourself by keybord.
+
+### Active Time
+You can setting number for this range.(Only Integer)<br>
+Min 5 ~ Max 120
+
+### Interval Time
+You can setting number for this range.(Only Integer)<br>
+Min 1 ~ Max 60
+
 <br>
 
 ## Timer Behavior
+<img width="282" height="132" alt="Image" src="https://github.com/user-attachments/assets/c786c096-21e6-4d6e-aae3-824b8354a351" />
+
 At the end of each time period, the specification requires prompting the user to confirm whether to continue.<br>
 This allows for
 * Use as a Pomodoro timer
