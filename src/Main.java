@@ -241,6 +241,7 @@ public class Main extends Application {
                                 T_Name.setLayoutX(25);
                                 T_Name.setLayoutY(7.5);
                                 T_Name.setFont(Font.font("System", FontWeight.BOLD, 25));
+                                startButton.setDisable(false);
                                 MP.stop();
                             } else {
                                 pushStop();
